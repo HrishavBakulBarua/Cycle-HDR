@@ -38,7 +38,7 @@ Low Dynamic Range (LDR) to High Dynamic Range (HDR) image translation is an impo
 | [SingleHDR(W) (WACV 23)](https://github.com/VinAIResearch/single_image_hdr)    |  | |  | :x: | :x: | :x: | :x: |
 |[UPHDR-GAN (TCSVT 2022)](https://github.com/liru0126/UPHDR-GAN) |  |  | |:x: | :x: | :x: | :x: |
 | [SelfHDR (ICLR 2024)](https://github.com/cszhilu1998/SelfHDR) |  | |  | :x: | :x: | :x: | :x: |
-| [IJCAI 2022](https://github.com/wanghu178/KUNet)   |  | |  | :x: | :x: | :x: | :x: |
+| [KUNet (IJCAI 2022)](https://github.com/wanghu178/KUNet)   |  | |  | :x: | :x: | :x: | :x: |
 | [Ghost-free HDR (ECCV 2022)](https://github.com/megvii-research/HDR-Transformer)  |  | |  | :x: | :x: | :x: | :x: |
 | [DITMO](https://arxiv.org/abs/2405.15468)   |  | |  | :x: | :x: | :x: | :x: |
 | **(ours)** |  ||| :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
