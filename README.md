@@ -8,7 +8,7 @@ The official repository of the paper with supplementary: [A Cycle Ride to HDR]()
 
 ## About the project
 
-This project is a collaboration between [Monash University, Malaysia campus](https://www.monash.edu.my/) and [Monash University, Melbourne, Australia](https://www.monash.edu/).
+This project is carried out in [Monash University, Melbourne, Australia](https://www.monash.edu/).
 
 Project Members - 
 
