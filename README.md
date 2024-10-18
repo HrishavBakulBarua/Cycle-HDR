@@ -34,13 +34,13 @@ Low Dynamic Range (LDR) to High Dynamic Range (HDR) image translation is an impo
 
 | Method       |    Input    | Output | Unpaired | Context-aware | Semantics | Artifacts | Tone-mapping |
 | ------------- | ------------- | -------------| -------------| -------------| -------------| -------------| -------------| 
-| [PSENet](https://www.epfl.ch/labs/mmspg/downloads/hdr-eye/)  |  | |  | :x: | :x: | :x: | :x: |
-| [SingleHDR(W)](https://github.com/jacenfox/ldr2hdr-public)    |  | |  | :x: | :x: | :x: | :x: |
-|[UPHDR-GAN](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/) |  |  | |:x: | :x: | :x: | :x: |
-| [SelfHDR](https://www.npal.cs.tsukuba.ac.jp/~endo/projects/DrTMO/) |  | |  | :x: | :x: | :x: | :x: |
-| [KUNet](https://computergraphics.on.liu.se/hdrcnn/)   |  | |  | :x: | :x: | :x: | :x: |
-| [Ghost-free HDR (2018)](https://siyeong-lee.github.io/hdr_vds_dataset/)  |  | |  | :x: | :x: | :x: | :x: |
-| [DITMO](https://github.com/csjcai/SICE)   |  | |  | :x: | :x: | :x: | :x: |
+| [PSENet (WACV 23)](https://github.com/whai362/PSENet)  |  | |  | :x: | :x: | :x: | :x: |
+| [SingleHDR(W) (WACV 23)](https://github.com/VinAIResearch/single_image_hdr)    |  | |  | :x: | :x: | :x: | :x: |
+|[UPHDR-GAN (TCSVT 2022)](https://github.com/liru0126/UPHDR-GAN) |  |  | |:x: | :x: | :x: | :x: |
+| [SelfHDR (ICLR 2024)](https://github.com/cszhilu1998/SelfHDR) |  | |  | :x: | :x: | :x: | :x: |
+| [IJCAI 2022](https://github.com/wanghu178/KUNet)   |  | |  | :x: | :x: | :x: | :x: |
+| [Ghost-free HDR (ECCV 2022)](https://github.com/megvii-research/HDR-Transformer)  |  | |  | :x: | :x: | :x: | :x: |
+| [DITMO](https://arxiv.org/abs/2405.15468)   |  | |  | :x: | :x: | :x: | :x: |
 | **(ours)** |  ||| :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 
