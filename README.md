@@ -30,6 +30,24 @@ Low Dynamic Range (LDR) to High Dynamic Range (HDR) image translation is an impo
 
 ## State-of-the-art comparision
 
+### <ins>Comparision summary table</ins>
+
+| Method       |    Input    | Output | Unpaired | Context-aware | Semantics | Artifacts | Tone-mapping |
+| ------------- | ------------- | -------------| -------------| -------------| -------------| -------------| -------------| 
+| [HDR-Eye (2015)](https://www.epfl.ch/labs/mmspg/downloads/hdr-eye/)  |  | |  | :x: | :x: | :x: | :x: |
+| [City Scene (2017)](https://github.com/jacenfox/ldr2hdr-public)    |  | |  | :x: | :x: | :x: | :x: |
+|[Kalantari *et al.* (2017)](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/) | Real | 89 | 1500&cross;1000|:x: | :x: | :x: | :x: |
+| [Endo *et al.* (2017)](https://www.npal.cs.tsukuba.ac.jp/~endo/projects/DrTMO/) |  | |  | :x: | :x: | :x: | :x: |
+| [Eilertsen *et al.* (2017)](https://computergraphics.on.liu.se/hdrcnn/)   |  | |  | :x: | :x: | :x: | :x: |
+| [Lee *et al.* (2018)](https://siyeong-lee.github.io/hdr_vds_dataset/)  |  | |  | :x: | :x: | :x: | :x: |
+| [Cai *et al.* (2018)](https://github.com/csjcai/SICE)   |  | |  | :x: | :x: | :x: | :x: |
+| [Prabhakar *et al.* (2019)](https://github.com/rajat95/Deep-Deghosting-HDR)  |  | |  | :x: | :x: | :x: | :x: |
+| [LDR-HDR Pair (2020)](https://github.com/HanbyolJang/LDR-HDR-pair_Dataset/tree/master)  |  | |  | :x: | :x: | :x: | :x: |
+| [HDR-Synth & HDR-Real (2020)](https://github.com/alex04072000/SingleHDR)  |  | |  | :x: | :x: | :x: | :x: |
+| [SI-HDR (2022)](https://www.cl.cam.ac.uk/research/rainbow/projects/sihdr_benchmark/)   |  | |  | :x: | :x: | :x: | :x: |
+| **GTA-HDR (ours)** (2024) |  ||| :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+
+
 
 
 ![My Image](assets/arch.png)
