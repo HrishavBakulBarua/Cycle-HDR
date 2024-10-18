@@ -26,24 +26,4 @@ This work is supported by the prestigious [`Global Excellence and Mobility Schol
 
 ## Overview
 
-Low Dynamic Range (LDR) to High Dynamic Range
-(HDR) image translation is an important computer vision
-problem. There is a significant amount of research uti-
-lizing both conventional non-learning methods and mod-
-ern data-driven approaches, focusing on using both single-
-exposed and multi-exposed LDR for HDR image recon-
-struction. However, most current state-of-the-art methods
-require high-quality paired {LDR,HDR} datasets for model
-training. In addition, there is limited literature on using
-unpaired datasets for this task where the model learns a
-mapping between domains, i.e., LDR ↔ HDR. To address
-limitations of current methods, such as the paired data con-
-straint, as well as unwanted blurring and visual artifacts
-in the reconstructed HDR, we propose a method that uses
-a modified cycle-consistent adversarial architecture and
-utilizes unpaired {LDR,HDR} datasets for training. The
-method introduces novel generators to address visual arti-
-fact removal and an encoder and loss to address seman-
-tic consistency, another under-explored topic. The method
-achieves state-of-the-art results across several benchmark
-datasets and reconstructs high-quality HDR images.
+Low Dynamic Range (LDR) to High Dynamic Range (HDR) image translation is an important computer vision problem. There is a significant amount of research utilizing both conventional non-learning methods and modern data-driven approaches, focusing on using both single-exposed and multi-exposed LDR for HDR image reconstruction. However, most current state-of-the-art methods require high-quality paired {LDR,HDR} datasets for model training. In addition, there is limited literature on using unpaired datasets for this task where the model learns a mapping between domains, i.e., LDR ↔ HDR. To address limitations of current methods, such as the paired data constraint, as well as unwanted blurring and visual artifacts in the reconstructed HDR, we propose a method that uses a modified cycle-consistent adversarial architecture and utilizes unpaired {LDR,HDR} datasets for training. The method introduces novel generators to address visual arti- fact removal and an encoder and loss to address semantic consistency, another under-explored topic. The method achieves state-of-the-art results across several benchmark datasets and reconstructs high-quality HDR images.
