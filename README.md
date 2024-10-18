@@ -32,11 +32,11 @@ Low Dynamic Range (LDR) to High Dynamic Range (HDR) image translation is an impo
 
 ### <ins>Comparision summary table</ins>
 
-| Method       |    Input    | Output | Unpaired | Context-aware | Semantics | Artifacts | Tone-mapping |
+| Method                |    Input    | Output | Unpaired | Context-aware | Semantics | Artifacts | Tone-mapping |
 | --------------------- | ------------- | -------------| -------------| -------------| -------------| -------------| -------------| 
 | [PSENet (WACV 23)](https://github.com/whai362/PSENet)  | SE | D | :x: | :x: | :x: | :x: | :x: |
 | [SingleHDR(W) (WACV 23)](https://github.com/VinAIResearch/single_image_hdr)    | SE | I | :x: | :x: | :x: | :x: | :x: |
-|[UPHDR-GAN (TCSVT 2022)](https://github.com/liru0126/UPHDR-GAN) | ME | D | :white_check_mark: |:x: | :x: |  :white_check_mark: | :x: |
+| [UPHDR-GAN (TCSVT 2022)](https://github.com/liru0126/UPHDR-GAN) | ME | D | :white_check_mark: |:x: | :x: |  :white_check_mark: | :x: |
 | [SelfHDR (ICLR 2024)](https://github.com/cszhilu1998/SelfHDR) | ME | I | :x:  | :x: | :x: |  :white_check_mark: | :x: |
 | [KUNet (IJCAI 2022)](https://github.com/wanghu178/KUNet)   | SE | D | :x: | :x: |  :white_check_mark: | :x: | :x: |
 | [Ghost-free HDR (ECCV 2022)](https://github.com/megvii-research/HDR-Transformer)  | ME | D | :x: |  :white_check_mark: | :x: |  :white_check_mark: | :x: |
