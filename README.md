@@ -8,7 +8,7 @@ The official repository of the paper with supplementary: [A Cycle Ride to HDR]()
 
 ## About the project
 
-This project is carried out in [Monash University, Melbourne, Australia](https://www.monash.edu/).
+This project is carried out at the [Human-Centered AI Lab](https://www.monash.edu/it/hcc/human-centred-ai-lab) in the [Faculty of Information Technology](https://www.monash.edu/it), [Monash University, Melbourne (Clayton), Australia](https://www.monash.edu/).
 
 Project Members - 
 
