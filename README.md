@@ -140,3 +140,6 @@ supervised (black) learning methods trained on the paired datasets
 ![My Image](assets/artifacts.png)
 Comparison of the [SingleHDR(W)](https://github.com/VinAIResearch/single_image_hdr) U-Net with and without our feedback mechanism on images from the [DrTMO](https://github.com/shleecs/DrTMO_unofficial_pytorch/blob/master/README.md) dataset.
 
+## Visual results
+
+![My Image](assets/visuals.png)
