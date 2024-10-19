@@ -80,7 +80,7 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 
 ####Unsupervised/weakly-supervised/self-supervised####
 
-`IEEE TCSVT` | `UPHDR-GAN` - Generative Adversarial Network for High Dynamic Range Imaging with Unpaired Data | [Code](https://github.com/liru0126/UPHDR-GAN)
+`IEEE TCSVT 2022` | `UPHDR-GAN` - Generative Adversarial Network for High Dynamic Range Imaging with Unpaired Data | [Code](https://github.com/liru0126/UPHDR-GAN)
 
 `WACV 2023` | `PSENet` - Progressive Self-Enhancement Network for Unsupervised Extreme-Light Image Enhancement | [Code](https://github.com/whai362/PSENet)
 
