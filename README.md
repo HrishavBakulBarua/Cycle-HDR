@@ -38,6 +38,8 @@ Overview of the proposed method architecture where *x* and *y* represent LDR and
 
 ![My Image](assets/cyc-loss.png)
 
+![My Image](assets/novel-loss.png)
+
 **Please check out the paper for more details**
 
 ## State-of-the-art comparision in high level parameters
