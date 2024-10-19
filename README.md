@@ -51,7 +51,7 @@ Low Dynamic Range (LDR) to High Dynamic Range (HDR) image translation is an impo
 
 ## Our work utilizes the following:
 
-### <ins>State-of-the-art awsome learning models for LDR to HDR reconstruction/translation</ins>
+### <ins>State-of-the-art awesome learning models for LDR to HDR reconstruction/translation</ins>
 
 #### Supervised: ####
 
@@ -88,5 +88,5 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 
 `ICLR 2024` | `SelfHDR` - Self-Supervised High Dynamic Range Imaging with Multi-Exposure Images in Dynamic Scenes | [Code](https://github.com/cszhilu1998/SelfHDR)
 
-### <ins>State-of-the-art awsome DL datasets for LDR to HDR reconstruction/translation</ins>
+### <ins>State-of-the-art awesome DL datasets for LDR to HDR reconstruction/translation</ins>
 
