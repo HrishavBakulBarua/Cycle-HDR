@@ -113,8 +113,11 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 
 ### <ins>Evaluation metrices used</ins>
 
-`PSNR` - Peak Signal to Noise Ratio | 
-`SSIM` - Structural Similarity Index Measure | 
+`PSNR` - Peak Signal to Noise Ratio |    
+
+`SSIM` - Structural Similarity Index Measure |        
+
 `LPIPS` - Learned Perceptual Image Patch Similarity |
+
 `HDR-VDP-2` -  High Dynamic Range Visual Differences Predictor | 
 
