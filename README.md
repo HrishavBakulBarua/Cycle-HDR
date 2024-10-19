@@ -53,7 +53,7 @@ Low Dynamic Range (LDR) to High Dynamic Range (HDR) image translation is an impo
 
 ### <ins>State-of-the-art awsome learning models for LDR to HDR reconstruction/translation</ins>
 
-####Supervised####
+#### Supervised: ####
 
 `ACM TOG 2017` | `HDRCNN` - HDR image reconstruction from a single exposure using deep CNNs | [Code](https://github.com/gabrieleilertsen/hdrcnn)
 
@@ -78,7 +78,7 @@ Low Dynamic Range (LDR) to High Dynamic Range (HDR) image translation is an impo
  `ICIP 2024` | `HistoHDR-Net` - Histogram Equalization for Single LDR to HDR Image
 Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 
-####Unsupervised/weakly-supervised/self-supervised####
+#### Unsupervised/weakly-supervised/self-supervised: ####
 
 `IEEE TCSVT 2022` | `UPHDR-GAN` - Generative Adversarial Network for High Dynamic Range Imaging with Unpaired Data | [Code](https://github.com/liru0126/UPHDR-GAN)
 
@@ -87,4 +87,6 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 `WACV 2023` | `SingleHDR` - Single-Image HDR Reconstruction by Multi-Exposure Generation | [Code](https://github.com/VinAIResearch/single_image_hdr)
 
 `ICLR 2024` | `SelfHDR` - Self-Supervised High Dynamic Range Imaging with Multi-Exposure Images in Dynamic Scenes | [Code](https://github.com/cszhilu1998/SelfHDR)
+
+### <ins>State-of-the-art awsome DL datasets for LDR to HDR reconstruction/translation</ins>
 
