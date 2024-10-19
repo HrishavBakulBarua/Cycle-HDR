@@ -90,3 +90,19 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 
 ### <ins>State-of-the-art awesome DL datasets for LDR to HDR reconstruction/translation</ins>
 
+`VPQM 2015` | `HDR-Eye` - Visual attention in LDR and HDR images | [Link](https://www.epfl.ch/labs/mmspg/downloads/hdr-eye/)
+
+`ACM TOG 2017` | `Kalantari` *et al.* - Deep high dynamic range imaging of dynamic scenes | [Link](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/)
+
+`IEEE Access 2020` | `LDR-HDR Pair` - Dynamic range expansion using cumulative histogram learning for high dynamic range image generation | [Link](https://github.com/HanbyolJang/LDR-HDR-pair_Dataset/tree/master)
+
+`CVPR 2020` | `HDR-Synth & HDR-Real` - Single-image HDR reconstruction by learning to reverse the camera pipeline | [Link](https://github.com/alex04072000/SingleHDR)
+
+`ICCV 2021` | `HDRTV` - A New Journey from SDRTV to HDRTV | [Link](https://github.com/chxy95/HDRTVNet?tab=readme-ov-file#dataset)
+
+`CVPR 2021` | `NTIRE` - Ntire 2021 challenge on high dynamic range imaging: Dataset, methods and results.| [Link](https://data.vision.ee.ethz.ch/cvl/ntire21/)
+
+`ACM TOG 2017` | `DrTMO` - Deep Reverse Tone Mapping | [Link](https://github.com/shleecs/DrTMO_unofficial_pytorch/blob/master/README.md)
+
+`GTA-HDR` -  A Large-Scale Synthetic Dataset for HDR Image Reconstruction | [Link](https://github.com/HrishavBakulBarua/GTA-HDR)
+
