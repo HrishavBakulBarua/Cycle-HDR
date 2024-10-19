@@ -51,7 +51,7 @@ Low Dynamic Range (LDR) to High Dynamic Range (HDR) image translation is an impo
 
 ## Our work utilizes the following:
 
-### <ins>State-of-the-art awsome learning models for LDR to HDR reconstruction</ins>
+### <ins>State-of-the-art awsome learning models for LDR to HDR reconstruction/translation</ins>
 
 `ACM TOG 2017` | `HDRCNN` - HDR image reconstruction from a single exposure using deep CNNs | [Code](https://github.com/gabrieleilertsen/hdrcnn)
 
