@@ -53,6 +53,8 @@ Low Dynamic Range (LDR) to High Dynamic Range (HDR) image translation is an impo
 
 ### <ins>State-of-the-art awsome learning models for LDR to HDR reconstruction/translation</ins>
 
+####Supervised####
+
 `ACM TOG 2017` | `HDRCNN` - HDR image reconstruction from a single exposure using deep CNNs | [Code](https://github.com/gabrieleilertsen/hdrcnn)
 
 `ACM TOG 2017` | `DrTMO` - Deep Reverse Tone Mapping | [Code](https://github.com/shleecs/DrTMO_unofficial_pytorch)
@@ -67,13 +69,22 @@ Low Dynamic Range (LDR) to High Dynamic Range (HDR) image translation is an impo
 
 `IEEE TIP 2021` | `HDR-GAN` - HDR Image Reconstruction from Multi-Exposed LDR Images with Large Motions | [Code](https://github.com/nonu116/HDR-GAN)
 
-`WACV 2023` | `SingleHDR` - Single-Image HDR Reconstruction by Multi-Exposure Generation | [Code](https://github.com/VinAIResearch/single_image_hdr)
+`IJCAI 2022` | `KUNet` - Imaging Knowledge-[PSENet (WACV'23)](https://github.com/whai362/PSENet) Single HDR Image Reconstruction | [Code](https://github.com/wanghu178/KUNet)
 
-`IJCAI 2022` | `KUNet` - | Imaging Knowledge-Inspired Single HDR Image Reconstruction | [Code](https://github.com/wanghu178/KUNet)
-
-ECCV 2022` | `Ghost-free HDR` - | Ghost-free High Dynamic Range Imaging with Context-aware Transformer | [Code](https://github.com/megvii-research/HDR-Transformer)
+`ECCV 2022` | `Ghost-free HDR` - Ghost-free High Dynamic Range Imaging with Context-aware Transformer | [Code](https://github.com/megvii-research/HDR-Transformer)
 
 `APSIPA 2023` | `ArtHDR-Net` - Perceptually Realistic and Accurate HDR Content Creation | [Code](https://arxiv.org/abs/2309.03827#:~:text=ArtHDR%2DNet%3A%20Perceptually%20Realistic%20and%20Accurate%20HDR%20Content%20Creation,-Hrishav%20Bakul%20Barua&text=High%20Dynamic%20Range%20(HDR)%20content,and%20Augmented%2FVirtual%20Reality%20industries.)
 
  `ICIP 2024` | `HistoHDR-Net` - Histogram Equalization for Single LDR to HDR Image
 Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
+
+####Unsupervised/weakly-supervised/self-supervised####
+
+`IEEE TCSVT` | `UPHDR-GAN` - Generative Adversarial Network for High Dynamic Range Imaging with Unpaired Data | [Code](https://github.com/liru0126/UPHDR-GAN)
+
+`WACV 2023` | `PSENet` - Progressive Self-Enhancement Network for Unsupervised Extreme-Light Image Enhancement | [Code](https://github.com/whai362/PSENet)
+
+`WACV 2023` | `SingleHDR` - Single-Image HDR Reconstruction by Multi-Exposure Generation | [Code](https://github.com/VinAIResearch/single_image_hdr)
+
+`ICLR 2024` | `SelfHDR` - Self-Supervised High Dynamic Range Imaging with Multi-Exposure Images in Dynamic Scenes | [Code](https://github.com/cszhilu1998/SelfHDR)
+
