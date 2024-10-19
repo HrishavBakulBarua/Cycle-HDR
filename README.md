@@ -63,13 +63,15 @@ Low Dynamic Range (LDR) to High Dynamic Range (HDR) image translation is an impo
 
 `CVPR 2020` | `SingleHDR` - Single-Image HDR Reconstruction by Learning to Reverse the Camera Pipeline | [Code](https://github.com/alex04072000/SingleHDR) 
 
-`CVPRW 2021` | `Two-stage` - A two-stage deep network for high dynamic range image reconstruction | [Code](https://github.com/sharif-apu/twostageHDR_NTIRE21)
+`CVPRW 2021` | `Two-stage HDR` - A two-stage deep network for high dynamic range image reconstruction | [Code](https://github.com/sharif-apu/twostageHDR_NTIRE21)
 
 `IEEE TIP 2021` | `HDR-GAN` - HDR Image Reconstruction from Multi-Exposed LDR Images with Large Motions | [Code](https://github.com/nonu116/HDR-GAN)
 
 `WACV 2023` | `SingleHDR` - Single-Image HDR Reconstruction by Multi-Exposure Generation | [Code](https://github.com/VinAIResearch/single_image_hdr)
 
 `IJCAI 2022` | `KUNet` - | Imaging Knowledge-Inspired Single HDR Image Reconstruction | [Code](https://github.com/wanghu178/KUNet)
+
+ECCV 2022` | `Ghost-free HDR` - | Ghost-free High Dynamic Range Imaging with Context-aware Transformer | [Code](https://github.com/megvii-research/HDR-Transformer)
 
 `APSIPA 2023` | `ArtHDR-Net` - Perceptually Realistic and Accurate HDR Content Creation | [Code](https://arxiv.org/abs/2309.03827#:~:text=ArtHDR%2DNet%3A%20Perceptually%20Realistic%20and%20Accurate%20HDR%20Content%20Creation,-Hrishav%20Bakul%20Barua&text=High%20Dynamic%20Range%20(HDR)%20content,and%20Augmented%2FVirtual%20Reality%20industries.)
 
