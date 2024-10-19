@@ -30,6 +30,8 @@ Low Dynamic Range (LDR) to High Dynamic Range (HDR) image translation is an impo
 
 ![My Image](assets/arch.png)
 
+Overview of the proposed method architecture where *x* and *y* represent LDR and HDR images, respectively. The method is trained with five objectives: adversarial, cycle consistency, identity, contrastive, and semantic segmentation. **Please see the paper for more details**.
+
 ## State-of-the-art comparision
 
 ### <ins>Comparision summary table</ins>
