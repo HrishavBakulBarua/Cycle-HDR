@@ -32,6 +32,12 @@ Low Dynamic Range (LDR) to High Dynamic Range (HDR) image translation is an impo
 
 Overview of the proposed method architecture where *x* and *y* represent LDR and HDR images, respectively. The method is trained with five objectives: adversarial, cycle consistency, identity, contrastive, and semantic segmentation. *G<sub>X<sub>* and *G<sub>Y<sub>* are the generators while *D<sub>X<sub>* and *D<sub>Y<sub>* are the discriminators. *E(.)* is the Contrastive Language-Image Pretraining - CLIP encoder.
 
+
+### Loss mechanisms
+
+
+![My Image](assets/cyc-loss.png)
+
 **Please check out the paper for more details**
 
 ## State-of-the-art comparision in high level parameters
