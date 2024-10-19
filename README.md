@@ -131,3 +131,5 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 
 ## Experiments and Results
 ![My Image](assets/results.png)
+
+![My Image](assets/artifacts.png)
