@@ -34,7 +34,7 @@ Overview of the proposed method architecture where *x* and *y* represent LDR and
 
 **Please check out the paper for more details**
 
-## State-of-the-art comparision
+## State-of-the-art comparision in high level parameters
 
 ### <ins>Comparision summary table</ins>
 
@@ -49,7 +49,14 @@ Overview of the proposed method architecture where *x* and *y* represent LDR and
 | [DITMO](https://arxiv.org/abs/2405.15468)   | SE | I | :x: | :x: |  :white_check_mark: |  :white_check_mark: | :x: |
 | **(ours)** | SE  | D |  :white_check_mark:| :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
-
+Input: LDR
+used as input (SE: Single-exposed and ME: Multi-exposed), Output:
+Reconstructs directly HDR (D) or multi-exposed LDR stack (I),
+Unpaired: Uses unpaired data, Context-aware: Uses local/global image
+information and relationship among entities in the image, Seman-
+tics: Uses color/texture information and identity of the items in
+the image, Artifacts: Handles visual artifacts, Tone-mapping: Also performs
+tone-mapping i.e. HDR → LDR.
 
 
 
