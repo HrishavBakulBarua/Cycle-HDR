@@ -133,3 +133,5 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 ![My Image](assets/results.png)
 
 ![My Image](assets/artifacts.png)
+Comparison of the [SingleHDR(W)](https://github.com/VinAIResearch/single_image_hdr) U-Net with and without our feedback mechanism on images from the [DrTMO](https://github.com/shleecs/DrTMO_unofficial_pytorch/blob/master/README.md) dataset.
+
