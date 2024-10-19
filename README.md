@@ -57,13 +57,19 @@ Low Dynamic Range (LDR) to High Dynamic Range (HDR) image translation is an impo
 
 `ACM TOG 2017` | `DrTMO` - Deep Reverse Tone Mapping | [Code](https://github.com/shleecs/DrTMO_unofficial_pytorch)
 
+`Eurographics 2018` | `ExpandNet` - A Deep Convolutional Neural Network for High Dynamic Range Expansion from Low Dynamic Range Content | [Code](https://github.com/dmarnerides/hdr-expandnet)
+
 `GlobalSIP 2019` | `FHDR` - HDR Image Reconstruction from a Single LDR Image using Feedback Network | [Code](https://github.com/mukulkhanna/FHDR)
 
 `CVPR 2020` | `SingleHDR` - Single-Image HDR Reconstruction by Learning to Reverse the Camera Pipeline | [Code](https://github.com/alex04072000/SingleHDR) 
 
+`CVPRW 2021` | `Two-stage` - A two-stage deep network for high dynamic range image reconstruction | [Code](https://github.com/sharif-apu/twostageHDR_NTIRE21)
+
 `IEEE TIP 2021` | `HDR-GAN` - HDR Image Reconstruction from Multi-Exposed LDR Images with Large Motions | [Code](https://github.com/nonu116/HDR-GAN)
 
 `WACV 2023` | `SingleHDR` - Single-Image HDR Reconstruction by Multi-Exposure Generation | [Code](https://github.com/VinAIResearch/single_image_hdr)
+
+`IJCAI 2022` | `KUNet` - | Imaging Knowledge-Inspired Single HDR Image Reconstruction | [Code](https://github.com/wanghu178/KUNet)
 
 `APSIPA 2023` | `ArtHDR-Net` - Perceptually Realistic and Accurate HDR Content Creation | [Code](https://arxiv.org/abs/2309.03827#:~:text=ArtHDR%2DNet%3A%20Perceptually%20Realistic%20and%20Accurate%20HDR%20Content%20Creation,-Hrishav%20Bakul%20Barua&text=High%20Dynamic%20Range%20(HDR)%20content,and%20Augmented%2FVirtual%20Reality%20industries.)
 
