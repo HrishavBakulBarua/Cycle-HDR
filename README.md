@@ -123,4 +123,4 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 `HDR-VDP-2` -  High Dynamic Range Visual Differences Predictor | [Link](https://dl.acm.org/doi/10.1145/2010324.1964935)
 
 ## Experiments and Results
-
+![My Image](assets/results.png)
