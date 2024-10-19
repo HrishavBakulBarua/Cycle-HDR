@@ -111,3 +111,5 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 
 `GTA-HDR` -  A Large-Scale Synthetic Dataset for HDR Image Reconstruction | [Link](https://github.com/HrishavBakulBarua/GTA-HDR)
 
+### <ins>Evaluation metrices used</ins>
+
