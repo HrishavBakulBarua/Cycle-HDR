@@ -90,7 +90,7 @@ tone-mapping i.e. HDR → LDR.
 
 `IEEE TIP 2021` | `HDR-GAN` - HDR Image Reconstruction from Multi-Exposed LDR Images with Large Motions | [Code](https://github.com/nonu116/HDR-GAN)
 
-`IJCAI 2022` | `KUNet` - Imaging Knowledge-[PSENet (WACV'23)](https://github.com/whai362/PSENet) Single HDR Image Reconstruction | [Code](https://github.com/wanghu178/KUNet)
+`IJCAI 2022` | `KUNet` - Imaging Knowledge-Inspired Single HDR Image Reconstruction | [Code](https://github.com/wanghu178/KUNet)
 
 `ECCV 2022` | `Ghost-free HDR` - Ghost-free High Dynamic Range Imaging with Context-aware Transformer | [Code](https://github.com/megvii-research/HDR-Transformer)
 
