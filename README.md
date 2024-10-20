@@ -83,7 +83,7 @@ tone-mapping i.e. HDR → LDR.
 
 ## Our work utilizes the following awesome works and datasets:
 
-### <ins>State-of-the-art DL models for LDR to HDR reconstruction/translation</ins>
+### <ins>State-of-the-art DL models for LDR → HDR reconstruction/translation</ins>
 
 #### Supervised: ####
 
@@ -120,7 +120,7 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 
 `ICLR 2024` | `SelfHDR` - Self-Supervised High Dynamic Range Imaging with Multi-Exposure Images in Dynamic Scenes | [Code](https://github.com/cszhilu1998/SelfHDR)
 
-### <ins>State-of-the-art DL datasets for LDR to HDR reconstruction/translation</ins>
+### <ins>State-of-the-art DL datasets for LDR → HDR reconstruction/translation</ins>
 
 `VPQM 2015` | `HDR-Eye` - Visual attention in LDR and HDR images | [Dataset](https://www.epfl.ch/labs/mmspg/downloads/hdr-eye/)
 
@@ -137,6 +137,14 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 `ACM TOG 2017` | `DrTMO` - Deep Reverse Tone Mapping | [Dataset](https://github.com/shleecs/DrTMO_unofficial_pytorch/blob/master/README.md)
 
 `GTA-HDR` -  A Large-Scale Synthetic Dataset for HDR Image Reconstruction | [Dataset](https://github.com/HrishavBakulBarua/GTA-HDR)
+
+### <ins>Popular HDR → LDR tome-mapping operators</ins>
+
+'μ-law operator' | [Link](https://search.ieice.org/bin/summary.php?id=e94-a_3_972)
+
+'Reinhard's operator` | [Link](https://dl.acm.org/doi/10.1145/566654.566575)
+
+`Photomatix` | [Link](https://www.hdrsoft.com/)
 
 ### <ins>Evaluation metrices used</ins>
 
