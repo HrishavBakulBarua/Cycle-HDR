@@ -54,8 +54,7 @@ image from the [DrTMO](https://github.com/shleecs/DrTMO_unofficial_pytorch/blob/
 equalized version of the LDR processed using the OpenCV func-
 tion equalizeHist. **Right**: Depiction of the semantic segmentation loss *L<sub>sem<sub>*.
 We use [Segment Anything (SAM)](https://arxiv.org/abs/2304.02643) to generate segmentation
-classes in the histogram-equalized LDR and reconstructed tone-
-mapped HDR images.
+classes in the histogram-equalized LDR and reconstructed tone-mapped HDR images.
 
 **Please check out the paper for more details!!**
 
@@ -78,8 +77,7 @@ Input: LDR
 used as input (SE: Single-exposed and ME: Multi-exposed), Output:
 Reconstructs directly HDR (D) or multi-exposed LDR stack (I),
 Unpaired: Uses unpaired data, Context-aware: Uses local/global image
-information and relationship among entities in the image, Seman-
-tics: Uses color/texture information and identity of the items in
+information and relationship among entities in the image, Semantics: Uses color/texture information and identity of the items in
 the image, Artifacts: Handles visual artifacts, Tone-mapping: Also performs
 tone-mapping i.e. HDR → LDR.
 
