@@ -108,6 +108,7 @@ images whereas our modified version with feedback reconstructs artifact-free HDR
 ![My Image](assets/visuals.png)
 
 
+**Please check out the paper for more details!!**
 
 ## Our work utilizes the following awesome works and datasets:
 
@@ -185,5 +186,4 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 `HDR-VDP-2` -  High Dynamic Range Visual Differences Predictor | [Link](https://dl.acm.org/doi/10.1145/2010324.1964935)
 
 
-**Please check out the paper for more details!!**
 
