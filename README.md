@@ -33,7 +33,8 @@ Low Dynamic Range (LDR) to High Dynamic Range (HDR) image translation is an impo
 **Left**: Overview of the proposed method architecture where *x* and *y* represent LDR and HDR images, respectively. The method is trained with five objectives: adversarial, cycle consistency, identity, contrastive, and semantic segmentation. *G<sub>X<sub>* and *G<sub>Y<sub>* are the generators while *D<sub>X<sub>* and *D<sub>Y<sub>* are the discriminators. *E(.)* is the Contrastive Language-Image Pretraining - CLIP encoder. **Right**: Overview of the proposed generators based on our novel feedback based U-Net architecture. 
 Left part ($${\color{blue}Blue}$$) is the encoder and
 right part ($${\color{red}Red}$$) is the decoder. The decoder is inside the feedback iteration loop 
-**Please check out the paper for more details**
+
+**Please check out the paper for more details!!**
 
 
 ### Loss mechanisms
@@ -54,7 +55,7 @@ We use [Segment Anything (SAM)](https://arxiv.org/abs/2304.02643) to generate se
 classes in the histogram-equalized LDR and reconstructed tone-
 mapped HDR images.
 
-**Please check out the paper for more details**
+**Please check out the paper for more details!!**
 
 ## State-of-the-art comparision in high level parameters
 
@@ -177,10 +178,12 @@ state-of-the-art one-mapping operators.
 ![My Image](assets/artifacts.png)
 Comparison of the [SingleHDR(W)](https://github.com/VinAIResearch/single_image_hdr) U-Net with and without our feedback mechanism on images from the [DrTMO](https://github.com/shleecs/DrTMO_unofficial_pytorch/blob/master/README.md) dataset.  It illustrates the improvement in [SingleHDR(W)](https://github.com/VinAIResearch/single_image_hdr) when we use the proposed feedback U-Net (mod) instead of the original U-Net of SingleHDR(W). The original U-Net produces many artifacts in the output HDR
 images whereas our modified version with feedback reconstructs artifact-free HDR images. 
-**Please check out the paper for more details**
+
+**Please check out the paper for more details!!**
 
 ## Visual results
 
 ![My Image](assets/visuals.png)
-**Please check out the paper for more details**
+
+**Please check out the paper for more details!!**
 
