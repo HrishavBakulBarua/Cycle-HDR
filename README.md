@@ -149,6 +149,7 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 `HDR-VDP-2` -  High Dynamic Range Visual Differences Predictor | [Link](https://dl.acm.org/doi/10.1145/2010324.1964935)
 
 ## Experiments and Results
+### LDR -> HDR
 ![My Image](assets/results.png)
 HDR reconstruction (inverse tone-mapping) learned with
 our self-supervised learning approach. Quantitative comparison
@@ -156,6 +157,7 @@ with supervised (gray) and unsupervised/weakly-supervised/self-
 supervised (black) learning methods trained on the paired datasets
 [HDRTV](https://github.com/chxy95/HDRTVNet?tab=readme-ov-file#dataset), [NTIRE](https://data.vision.ee.ethz.ch/cvl/ntire21/), and [HDR-Synth & HDR-Real](https://github.com/alex04072000/SingleHDR).
 
+### HDR -> LDR
 ![My Image](assets/results_tone-map.png)
 LDR reconstruction (tone-mapping) learned with our self-
 supervised learning approach. Quantitative comparison with the
