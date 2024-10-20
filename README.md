@@ -138,11 +138,11 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 
 `GTA-HDR` -  A Large-Scale Synthetic Dataset for HDR Image Reconstruction | [Dataset](https://github.com/HrishavBakulBarua/GTA-HDR)
 
-### <ins>Popular HDR → LDR tome-mapping operators</ins>
+### <ins>Popular HDR → LDR tome-mapping operators used</ins>
 
-'μ-law operator' | [Link](https://search.ieice.org/bin/summary.php?id=e94-a_3_972)
+`μ-law operator` | [Link](https://search.ieice.org/bin/summary.php?id=e94-a_3_972)
 
-'Reinhard's operator` | [Link](https://dl.acm.org/doi/10.1145/566654.566575)
+`Reinhard's operator` | [Link](https://dl.acm.org/doi/10.1145/566654.566575)
 
 `Photomatix` | [Link](https://www.hdrsoft.com/)
 
