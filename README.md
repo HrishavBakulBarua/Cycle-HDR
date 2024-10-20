@@ -82,6 +82,30 @@ the image, Artifacts: Handles visual artifacts, Tone-mapping: Also performs
 tone-mapping i.e. HDR → LDR.
 
 
+## Experiments and Results
+###  LDR → HDR:
+![My Image](assets/results.png)
+HDR reconstruction (inverse tone-mapping) learned with
+our self-supervised learning approach. Quantitative comparison
+with supervised (gray) and unsupervised/weakly-supervised/self-
+supervised (black) learning methods trained on the paired datasets
+[HDRTV](https://github.com/chxy95/HDRTVNet?tab=readme-ov-file#dataset), [NTIRE](https://data.vision.ee.ethz.ch/cvl/ntire21/), and [HDR-Synth & HDR-Real](https://github.com/alex04072000/SingleHDR).
+
+### HDR → LDR:
+![My Image](assets/results_tone-map.png)
+LDR reconstruction (tone-mapping) learned with our self-
+supervised learning approach. Quantitative comparison with the
+state-of-the-art one-mapping operators.
+
+![My Image](assets/artifacts.png)
+Comparison of the [SingleHDR(W)](https://github.com/VinAIResearch/single_image_hdr) U-Net with and without our feedback mechanism on images from the [DrTMO](https://github.com/shleecs/DrTMO_unofficial_pytorch/blob/master/README.md) dataset.  It illustrates the improvement in [SingleHDR(W)](https://github.com/VinAIResearch/single_image_hdr) when we use the proposed feedback U-Net (mod) instead of the original U-Net of SingleHDR(W). The original U-Net produces many artifacts in the output HDR
+images whereas our modified version with feedback reconstructs artifact-free HDR images. 
+
+**Please check out the paper for more details!!**
+
+## Visual results
+
+![My Image](assets/visuals.png)
 
 
 
@@ -160,30 +184,6 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 
 `HDR-VDP-2` -  High Dynamic Range Visual Differences Predictor | [Link](https://dl.acm.org/doi/10.1145/2010324.1964935)
 
-## Experiments and Results
-###  LDR → HDR:
-![My Image](assets/results.png)
-HDR reconstruction (inverse tone-mapping) learned with
-our self-supervised learning approach. Quantitative comparison
-with supervised (gray) and unsupervised/weakly-supervised/self-
-supervised (black) learning methods trained on the paired datasets
-[HDRTV](https://github.com/chxy95/HDRTVNet?tab=readme-ov-file#dataset), [NTIRE](https://data.vision.ee.ethz.ch/cvl/ntire21/), and [HDR-Synth & HDR-Real](https://github.com/alex04072000/SingleHDR).
-
-### HDR → LDR:
-![My Image](assets/results_tone-map.png)
-LDR reconstruction (tone-mapping) learned with our self-
-supervised learning approach. Quantitative comparison with the
-state-of-the-art one-mapping operators.
-
-![My Image](assets/artifacts.png)
-Comparison of the [SingleHDR(W)](https://github.com/VinAIResearch/single_image_hdr) U-Net with and without our feedback mechanism on images from the [DrTMO](https://github.com/shleecs/DrTMO_unofficial_pytorch/blob/master/README.md) dataset.  It illustrates the improvement in [SingleHDR(W)](https://github.com/VinAIResearch/single_image_hdr) when we use the proposed feedback U-Net (mod) instead of the original U-Net of SingleHDR(W). The original U-Net produces many artifacts in the output HDR
-images whereas our modified version with feedback reconstructs artifact-free HDR images. 
-
-**Please check out the paper for more details!!**
-
-## Visual results
-
-![My Image](assets/visuals.png)
 
 **Please check out the paper for more details!!**
 
