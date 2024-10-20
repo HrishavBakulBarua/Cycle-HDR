@@ -38,7 +38,7 @@ Overview of the proposed method architecture where *x* and *y* represent LDR and
 
 ![My Image](assets/cyc-loss.png)
 
-Depiction of the cycle consistency loss Lcyc using an
+Depiction of the cycle consistency loss *L<sub>cyc<sub>* using an
 image from the [DrTMO](https://github.com/shleecs/DrTMO_unofficial_pytorch/blob/master/README.md) dataset.
 
 ![My Image](assets/novel-loss.png)
@@ -46,7 +46,7 @@ image from the [DrTMO](https://github.com/shleecs/DrTMO_unofficial_pytorch/blob/
 **Left**: Depiction of the contrastive loss *L<sub>con<sub>*. Positive
 ($${\color{green}green}$$) and negative ($${\color{red}Red}$$) pairs in a batch. We use a histogram-
 equalized version of the LDR processed using the OpenCV func-
-tion equalizeHist. **Right**: Depiction of the semantic segmentation loss Lsem.
+tion equalizeHist. **Right**: Depiction of the semantic segmentation loss *L<sub>sem<sub>*.
 We use [Segment Anything (SAM)](https://arxiv.org/abs/2304.02643) to generate segmentation
 classes in the histogram-equalized LDR and reconstructed tone-
 mapped HDR images.
