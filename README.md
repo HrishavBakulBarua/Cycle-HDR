@@ -172,7 +172,7 @@ supervised learning approach. Quantitative comparison with the
 state-of-the-art one-mapping operators.
 
 ![My Image](assets/artifacts.png)
-Comparison of the [SingleHDR(W)](https://github.com/VinAIResearch/single_image_hdr) U-Net with and without our feedback mechanism on images from the [DrTMO](https://github.com/shleecs/DrTMO_unofficial_pytorch/blob/master/README.md) dataset.  It illustrates the improvement in [SingleHDR(W)](https://github.com/VinAIResearch/single_image_hdr) when we use the proposed feedback U-Net instead of the original U-Net of SingleHDR(W). The original U-Net produces many artifacts in the output HDR
+Comparison of the [SingleHDR(W)](https://github.com/VinAIResearch/single_image_hdr) U-Net with and without our feedback mechanism on images from the [DrTMO](https://github.com/shleecs/DrTMO_unofficial_pytorch/blob/master/README.md) dataset.  It illustrates the improvement in [SingleHDR(W)](https://github.com/VinAIResearch/single_image_hdr) when we use the proposed feedback U-Net(mod) instead of the original U-Net of SingleHDR(W). The original U-Net produces many artifacts in the output HDR
 images whereas our modified version with feedback reconstructs artifact-free HDR images. 
 
 ## Visual results
