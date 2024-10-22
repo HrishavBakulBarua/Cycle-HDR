@@ -3,7 +3,7 @@
 
 ![My Image](assets/teaser.png)
 
-The official repository of the paper with supplementary: [A Cycle Ride to HDR]()!!
+The official repository of the paper with supplementary: [A Cycle Ride to HDR](https://arxiv.org/abs/2410.15068)!!
 
 
 ## About the project
