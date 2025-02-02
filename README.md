@@ -165,7 +165,7 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 
 `ACM TOG 2017` | `DrTMO` - Deep Reverse Tone Mapping | [Dataset](https://github.com/shleecs/DrTMO_unofficial_pytorch/blob/master/README.md)
 
-`GTA-HDR` -  A Large-Scale Synthetic Dataset for HDR Image Reconstruction | [Dataset](https://github.com/HrishavBakulBarua/GTA-HDR)
+`WACV 2025` | `GTA-HDR` -  A Large-Scale Synthetic Dataset for HDR Image Reconstruction | [Dataset](https://github.com/HrishavBakulBarua/GTA-HDR)
 
 ### <ins>Popular HDR → LDR tome-mapping operators used</ins>
 
