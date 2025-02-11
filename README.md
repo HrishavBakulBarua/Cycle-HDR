@@ -191,4 +191,44 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 `HDR-VDP-2` -  High Dynamic Range Visual Differences Predictor | [Link](https://dl.acm.org/doi/10.1145/2010324.1964935)
 
 
+##  Citation 
+
+If you find our work (i.e., the code, the theory/concept, or the dataset) useful for your research or development activities, please consider citing our work as follows:
+
+~~~
+@article{barua2024cycle,
+  title={A Cycle Ride to HDR: Semantics Aware Self-Supervised Framework for Unpaired LDR-to-HDR Image Translation},
+  author={Barua, Hrishav Bakul and Kalin, Stefanov and Che, Lemuel Lai En and Abhinav, Dhall and KokSheik, Wong and Ganesh, Krishnasamy},
+  journal={arXiv preprint arXiv:2410.15068},
+  year={2024}
+}
+~~~
+
+~~~
+@article{barua2024gta,
+  title={GTA-HDR: A Large-Scale Synthetic Dataset for HDR Image Reconstruction},
+  author={Barua, Hrishav Bakul and Stefanov, Kalin and Wong, KokSheik and Dhall, Abhinav and Krishnasamy, Ganesh},
+  journal={arXiv preprint arXiv:2403.17837},
+  year={2024}
+}
+~~~
+Related works: 
+~~~
+@inproceedings{barua2023arthdr,
+  title={ArtHDR-Net: Perceptually Realistic and Accurate HDR Content Creation},
+  author={Barua, Hrishav Bakul and Krishnasamy, Ganesh and Wong, KokSheik and Stefanov, Kalin and Dhall, Abhinav},
+  booktitle={2023 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)},
+  pages={806--812},
+  year={2023},
+  organization={IEEE}
+}
+~~~
+~~~
+@article{barua2024histohdr,
+  title={HistoHDR-Net: Histogram Equalization for Single LDR to HDR Image Translation},
+  author={Barua, Hrishav Bakul and Krishnasamy, Ganesh and Wong, KokSheik and Dhall, Abhinav and Stefanov, Kalin},
+  journal={arXiv preprint arXiv:2402.06692},
+  year={2024}
+}
+~~~
 
