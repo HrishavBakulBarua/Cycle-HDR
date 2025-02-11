@@ -148,6 +148,8 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 
 `WACV 2023` | `SingleHDR` - Single-Image HDR Reconstruction by Multi-Exposure Generation | [Code](https://github.com/VinAIResearch/single_image_hdr)
 
+`ICCV 2023` | `GlowGAN-ITM` - : Unsupervised Learning of HDR Images from LDR Images in the Wild | [Code](https://github.com/Hans1984/GlowGAN)
+
 `ICLR 2024` | `SelfHDR` - Self-Supervised High Dynamic Range Imaging with Multi-Exposure Images in Dynamic Scenes | [Code](https://github.com/cszhilu1998/SelfHDR)
 
 ### <ins>State-of-the-art DL datasets for LDR → HDR reconstruction/translation</ins>
@@ -175,6 +177,8 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 `Reinhard's operator` | [Link](https://dl.acm.org/doi/10.1145/566654.566575)
 
 `Photomatix` | [Link](https://www.hdrsoft.com/)
+
+`GlowGAN-prior` | [Link](https://github.com/Hans1984/GlowGAN)
 
 ### <ins>Evaluation metrices used</ins>
 
