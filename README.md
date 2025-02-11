@@ -232,3 +232,16 @@ Related works:
 }
 ~~~
 
+
+## License and Copyright
+
+
+~~~
+----------------------------------------------------------------------------------------
+Copyright 2024 | All the authors and contributors of this repository as mentioned above.
+----------------------------------------------------------------------------------------
+
+~~~
+
+Please check the [License](LICENSE) Agreement.
+
