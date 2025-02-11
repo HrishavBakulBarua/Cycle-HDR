@@ -146,7 +146,7 @@ Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 
 `WACV 2023` | `PSENet` - Progressive Self-Enhancement Network for Unsupervised Extreme-Light Image Enhancement | [Code](https://github.com/whai362/PSENet)
 
-`WACV 2023` | `SingleHDR` - Single-Image HDR Reconstruction by Multi-Exposure Generation | [Code](https://github.com/VinAIResearch/single_image_hdr)
+`WACV 2023` | `SingleHDR(W)` - Single-Image HDR Reconstruction by Multi-Exposure Generation | [Code](https://github.com/VinAIResearch/single_image_hdr)
 
 `ICCV 2023` | `GlowGAN-ITM` - : Unsupervised Learning of HDR Images from LDR Images in the Wild | [Code](https://github.com/Hans1984/GlowGAN)
 
