@@ -205,11 +205,13 @@ If you find our work (i.e., the code, the theory/concept, or the dataset) useful
 ~~~
 
 ~~~
-@article{barua2024gta,
-  title={GTA-HDR: A Large-Scale Synthetic Dataset for HDR Image Reconstruction},
-  author={Barua, Hrishav Bakul and Stefanov, Kalin and Wong, KokSheik and Dhall, Abhinav and Krishnasamy, Ganesh},
-  journal={arXiv preprint arXiv:2403.17837},
-  year={2024}
+@InProceedings{Barua_2025_WACV,
+    author    = {Barua, Hrishav Bakul and Stefanov, Kalin and Wong, KokSheik and Dhall, Abhinav and Krishnasamy, Ganesh},
+    title     = {GTA-HDR: A Large-Scale Synthetic Dataset for HDR Image Reconstruction},
+    booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {February},
+    year      = {2025},
+    pages     = {7865-7875}
 }
 ~~~
 Related works: 
