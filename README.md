@@ -140,6 +140,8 @@ images whereas our modified version with feedback reconstructs artifact-free HDR
  `ICIP 2024` | `HistoHDR-Net` - Histogram Equalization for Single LDR to HDR Image
 Translation| [Code](https://arxiv.org/pdf/2402.06692.pdf)
 
+`ICCV 2023` | `RawHDR` - High Dynamic Range Image Reconstruction from a Single Raw Image | [Code](https://github.com/yunhao-zou/RawHDR)
+
 #### Unsupervised/weakly-supervised/self-supervised: ####
 
 `IEEE TCSVT 2022` | `UPHDR-GAN` - Generative Adversarial Network for High Dynamic Range Imaging with Unpaired Data | [Code](https://github.com/liru0126/UPHDR-GAN)
