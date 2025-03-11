@@ -1,9 +1,9 @@
-# A Cycle Ride to HDR: Semantics Aware Self-Supervised Framework for Unpaired LDR-to-HDR Image Translation
+# LLM-HDR: Bridging LLM-based Perception and Self-Supervision for Unpaired LDR-to-HDR Image Reconstruction
 
 
 ![My Image](assets/teaser.png)
 
-The official repository of the paper with supplementary: [A Cycle Ride to HDR](https://arxiv.org/abs/2410.15068)!!
+The official repository of the paper with supplementary: [LLM-HDR](https://arxiv.org/abs/2410.15068)!!
 
 
 ## About the project
