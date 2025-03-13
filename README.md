@@ -3,7 +3,8 @@
 
 ![My Image](assets/teaser.png)
 
-The official repository of the paper with supplementary: ![arXiv:2410.15068](https://arxiv.org/abs/2410.15068)!!
+The official repository of the paper with supplementary: ![arXiv:2410.15068](https://arxiv.org/abs/2410.15068)!! [![arXiv](https://img.shields.io/badge/arXiv:2410.15068-b31b1b.svg)]([https://arxiv.org/abs/2301.12345](https://arxiv.org/abs/2410.15068))
+
 
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=yourusername.yourrepo)
 
