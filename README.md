@@ -43,6 +43,11 @@ right part ($${\color{red}Red}$$) is the decoder. The decoder is inside the feed
 
 ![My Image](assets/llm.png)
 
+Overview of the proposed LLM module. Q&A sessions include: **User prompt**: “Tell me if there are any synthesis artifacts
+in the given scene or not. Must response with 1) Yes or No only, 2) If Yes, can you get me the saliency maps of the artifacts (in red),
+overexposed (in blue) and underexposed (in yellow) areas of this image?”, **System**: “Outputs the saliency maps for the detected artifacts
+in red, overexposed pixels in blue, and underexposed pixels in yellow.”
+
 **Please check out the paper for more details!!**
 
 
