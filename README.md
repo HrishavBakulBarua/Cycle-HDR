@@ -39,7 +39,9 @@ The translation of Low Dynamic Range (LDR) to High Dynamic Range (HDR) images is
 
 **Left**: Overview of the proposed method architecture where *x* and *y* represent LDR and HDR images, respectively. The method is trained with six objectives: adversarial, cycle consistency, identity, LLM-based, contrastive, and semantic segmentation. *G<sub>X<sub>* and *G<sub>Y<sub>* are the generators while *D<sub>X<sub>* and *D<sub>Y<sub>* are the discriminators. *E(.)* is the Contrastive Language-Image Pretraining - CLIP encoder. **Right**: Overview of the proposed generators based on our novel feedback based U-Net architecture. 
 Left part ($${\color{blue}Blue}$$) is the encoder and
-right part ($${\color{red}Red}$$) is the decoder. The decoder is inside the feedback iteration loop 
+right part ($${\color{red}Red}$$) is the decoder. The decoder is inside the feedback iteration loop.
+
+![My Image](assets/llm.png)
 
 **Please check out the paper for more details!!**
 
