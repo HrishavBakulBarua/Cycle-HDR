@@ -53,7 +53,7 @@ in red, overexposed pixels in blue, and underexposed pixels in yellow.”
 
 ### Loss mechanisms
 
-![My Image](assets/llm.png)
+![My Image](assets/llm-loss.png)
 
 Depiction of the LLM-based loss Lllm. Q&A sessions
 include: **User prompt**: “Tell me if there are any synthesis artifacts
