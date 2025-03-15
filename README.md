@@ -77,7 +77,7 @@ classes in the histogram-equalized LDR and reconstructed tone-mapped HDR images.
 | [Ghost-free HDR (ECCV'22)](https://github.com/megvii-research/HDR-Transformer)  | ME | D | :x: |  :white_check_mark: | :x: |  :white_check_mark: | :x: |
 | [GlowGAN-ITM (ICCV'23)](https://github.com/Hans1984/GlowGAN)  | SE | D | :white_check_mark: |  :x: | :x: |  :white_check_mark: | :x: |
 | [DITMO](https://arxiv.org/abs/2405.15468)   | SE | I | :x: | :x: |  :white_check_mark: |  :white_check_mark: | :x: |
-| **(ours)** | SE  | D |  :white_check_mark:| :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| **LLM-HDR (ours)** | SE  | D |  :white_check_mark:| :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 Input: LDR
 used as input (SE: Single-exposed and ME: Multi-exposed), Output:
