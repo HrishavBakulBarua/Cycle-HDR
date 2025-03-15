@@ -53,6 +53,19 @@ in red, overexposed pixels in blue, and underexposed pixels in yellow.”
 
 ### Loss mechanisms
 
+![My Image](assets/llm.png)
+
+Depiction of the LLM-based loss Lllm. Q&A sessions
+include: **User prompt**: “Tell me if there are any synthesis artifacts
+in the given scene or not. Must response with 1) Yes or No only, 2)
+If Yes, return the [artifact areas number of pixels, total number of
+pixels]. Also highlight the artifact areas with $${\color{pink}pink}$$. Similarly find
+if there are any over/under exposure areas in the scene and return
+the [pixels in overexposure, pixels in underexposure areas] and
+highlight the overexposed areas in $${\color{blue}Blue}$$ and underexposed areas in
+$${\color{green}green}$$.”, **System**: “Outputs the number of pixels with the pixel list
+(in .txt files) for the detected artifacts in pink, overexposed pixels
+in blue, and underexposed pixels in green.”
 
 ![My Image](assets/cyc-loss.png)
 
