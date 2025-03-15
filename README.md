@@ -95,7 +95,8 @@ HDR reconstruction (inverse tone-mapping) learned with
 our self-supervised learning approach. Quantitative comparison
 with supervised (gray) and unsupervised/weakly-supervised/self-
 supervised (black) learning methods trained on the paired datasets
-[HDRTV](https://github.com/chxy95/HDRTVNet?tab=readme-ov-file#dataset), [NTIRE](https://data.vision.ee.ethz.ch/cvl/ntire21/), and [HDR-Synth & HDR-Real](https://github.com/alex04072000/SingleHDR).
+[HDRTV](https://github.com/chxy95/HDRTVNet?tab=readme-ov-file#dataset), [NTIRE](https://data.vision.ee.ethz.ch/cvl/ntire21/), and [HDR-Synth & HDR-Real](https://github.com/alex04072000/SingleHDR). **LP**: Supervised (S), unsupervised (US), weakly-
+supervised (WS), and self-supervised (SS).
 
 ### HDR → LDR:
 ![My Image](assets/results_tone-map.png)
