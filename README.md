@@ -87,17 +87,17 @@ classes in the histogram-equalized LDR and reconstructed tone-mapped HDR images.
 
 ### <ins>Comparision summary table</ins>
 
-| Method                |    Input    | Output | Unpaired | Context-aware | Semantics | Artifacts | Tone-mapping |
-| --------------------- | ------------- | -------------| -------------| -------------| -------------| -------------| -------------| 
-| [PSENet (WACV'23)](https://github.com/whai362/PSENet)  | SE | D | :x: | :x: | :x: | :x: | :x: |
-| [SingleHDR(W) (WACV'23)](https://github.com/VinAIResearch/single_image_hdr)    | SE | I | :x: | :x: | :x: | :x: | :x: |
-| [UPHDR-GAN (TCSVT'22)](https://github.com/liru0126/UPHDR-GAN) | ME | D | :white_check_mark: |:x: | :x: |  :white_check_mark: | :x: |
-| [SelfHDR (ICLR'24)](https://github.com/cszhilu1998/SelfHDR) | ME | I | :x:  | :x: | :x: |  :white_check_mark: | :x: |
-| [KUNet (IJCAI'22)](https://github.com/wanghu178/KUNet)   | SE | D | :x: | :x: |  :white_check_mark: | :x: | :x: |
-| [Ghost-free HDR (ECCV'22)](https://github.com/megvii-research/HDR-Transformer)  | ME | D | :x: |  :white_check_mark: | :x: |  :white_check_mark: | :x: |
-| [GlowGAN-ITM (ICCV'23)](https://github.com/Hans1984/GlowGAN)  | SE | D | :white_check_mark: |  :x: | :x: |  :white_check_mark: | :x: |
-| [DITMO](https://arxiv.org/abs/2405.15468)   | SE | I | :x: | :x: |  :white_check_mark: |  :white_check_mark: | :x: |
-| **LLM-HDR (ours)** | SE  | D |  :white_check_mark:| :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Method                |    Input    | Output | Unpaired | LLM | Context-aware | Semantics | Artifacts | Tone-mapping |
+| --------------------- | ------------- | -------------| ------------- | ------ | -------------| -------------| -------------| -------------| 
+| [PSENet (WACV'23)](https://github.com/whai362/PSENet)  | SE | D | :x: | :x: | :x: | :x: | :x: | :x: |
+| [SingleHDR(W) (WACV'23)](https://github.com/VinAIResearch/single_image_hdr)    | SE | I | :x: | :x: | :x: | :x: | :x: | :x: |
+| [UPHDR-GAN (TCSVT'22)](https://github.com/liru0126/UPHDR-GAN) | ME | D | :white_check_mark: |:x: | :x: | :x: |  :white_check_mark: | :x: |
+| [SelfHDR (ICLR'24)](https://github.com/cszhilu1998/SelfHDR) | ME | I | :x:  | :x: | :x: | :x: |  :white_check_mark: | :x: |
+| [KUNet (IJCAI'22)](https://github.com/wanghu178/KUNet)   | SE | D | :x: | :x: | :x: |  :white_check_mark: | :x: | :x: |
+| [Ghost-free HDR (ECCV'22)](https://github.com/megvii-research/HDR-Transformer)  | ME | D | :x: | :x: |  :white_check_mark: | :x: |  :white_check_mark: | :x: |
+| [GlowGAN-ITM (ICCV'23)](https://github.com/Hans1984/GlowGAN)  | SE | D | :white_check_mark: | :x: |  :x: | :x: |  :white_check_mark: | :x: |
+| [DITMO](https://arxiv.org/abs/2405.15468)   | SE | I | :x: | :x: | :x: |  :white_check_mark: |  :white_check_mark: | :x: |
+| **LLM-HDR (ours)** | SE  | D |  :white_check_mark:| :white_check_mark:| :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 Input: LDR
 used as input (SE: Single-exposed and ME: Multi-exposed), Output:
