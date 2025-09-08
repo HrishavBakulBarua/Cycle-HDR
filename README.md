@@ -1,4 +1,4 @@
-# LLM-HDR: Bridging LLM-based Perception and Self-Supervision for Unpaired LDR-to-HDR Image Reconstruction
+# Breaking the Pair! Semantics-Aware Self-Supervised Framework with Cycle Consistency for Unpaired LDR-to-HDR Image Reconstruction
 
 
 ![My Image](assets/teaser.png)
