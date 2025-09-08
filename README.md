@@ -1,4 +1,4 @@
-# Breaking the Pair! Semantics-Aware Self-Supervised Framework with Cycle Consistency for Unpaired LDR-to-HDR Image Reconstruction
+# Breaking the Pair! A Cycle Ride to HDR: Semantics Aware Self-Supervised Framework for Unpaired LDR-to-HDR Image Reconstruction
 
 
 ![My Image](assets/teaser.png)
