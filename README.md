@@ -44,10 +44,7 @@ right part ($${\color{red}Red}$$) is the decoder. The decoder is inside the feed
 
 ![My Image](assets/heuristic.png)
 
-Overview of the proposed LLM module. Q&A sessions include: **User prompt**: “Tell me if there are any synthesis artifacts
-in the given scene or not. Must response with 1) Yes or No only, 2) If Yes, can you get me the saliency maps of the artifacts (in $${\color{red}Red}$$),
-overexposed (in ($${\color{blue}Blue}$$) and underexposed (in $${\color{yellow}Yellow}$$) areas of this image?”, **System**: “Outputs the saliency maps for the detected artifacts
-in red, overexposed pixels in blue, and underexposed pixels in yellow.”
+Overview of the proposed heuristic-based module. The module outputs the saliency maps for the detected artifacts (in $${\color{red}Red}$$), overexposed pixels (in ($${\color{blue}Blue}$$), and underexposed pixels (in $${\color{yellow}Yellow}$$). 
 
 **Please check out the paper for more details!!**
 
