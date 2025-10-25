@@ -72,7 +72,7 @@ classes in the histogram-equalized LDR and reconstructed tone-mapped HDR images.
 
 ### <ins>Comparision summary table</ins>
 
-| Method                |    Input    | Output | Unpaired | HF | Context-aware | Semantics | Artifacts | Tone-mapping |
+| Method                |    I/O    | O/P | UP | HF | Con | Sem | Art | TM |
 | --------------------- | ------------- | -------------| ------------- | ------ | -------------| -------------| -------------| -------------| 
 | [PSENet (WACV'23)](https://github.com/whai362/PSENet)  | SE | D | :x: | :x: | :x: | :x: | :x: | :x: |
 | [SingleHDR(W) (WACV'23)](https://github.com/VinAIResearch/single_image_hdr)    | SE | I | :x: | :x: | :x: | :x: | :x: | :x: |
