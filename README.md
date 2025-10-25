@@ -72,7 +72,7 @@ classes in the histogram-equalized LDR and reconstructed tone-mapped HDR images.
 
 ### <ins>Comparision summary table</ins>
 
-| Method                |    Input    | Output | Unpaired | LLM | Context-aware | Semantics | Artifacts | Tone-mapping |
+| Method                |    Input    | Output | Unpaired | HF | Context-aware | Semantics | Artifacts | Tone-mapping |
 | --------------------- | ------------- | -------------| ------------- | ------ | -------------| -------------| -------------| -------------| 
 | [PSENet (WACV'23)](https://github.com/whai362/PSENet)  | SE | D | :x: | :x: | :x: | :x: | :x: | :x: |
 | [SingleHDR(W) (WACV'23)](https://github.com/VinAIResearch/single_image_hdr)    | SE | I | :x: | :x: | :x: | :x: | :x: | :x: |
@@ -82,20 +82,14 @@ classes in the histogram-equalized LDR and reconstructed tone-mapped HDR images.
 | [Ghost-free HDR (ECCV'22)](https://github.com/megvii-research/HDR-Transformer)  | ME | D | :x: | :x: |  :white_check_mark: | :x: |  :white_check_mark: | :x: |
 | [GlowGAN-ITM (ICCV'23)](https://github.com/Hans1984/GlowGAN)  | SE | D | :white_check_mark: | :x: |  :x: | :x: |  :white_check_mark: | :x: |
 | [DITMO](https://arxiv.org/abs/2405.15468)   | SE | I | :x: | :x: | :x: |  :white_check_mark: |  :white_check_mark: | :x: |
-| **LLM-HDR (ours)** | SE  | D |  :white_check_mark:| :white_check_mark:| :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| **CycleHDR (ours)** | SE  | D |  :white_check_mark:| :white_check_mark:| :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
-Input: LDR
-used as input (SE: Single-exposed and ME: Multi-exposed), Output:
-Reconstructs directly HDR (D) or multi-exposed LDR stack (I),
-Unpaired: Uses unpaired data, Context-aware: Uses local/global image
-information and relationship among entities in the image, Semantics: Uses color/texture information and identity of the items in
-the image, Artifacts: Handles visual artifacts, Tone-mapping: Also performs
-tone-mapping i.e. HDR → LDR.
+I/O: LDR used as input, single-exposed (SE) and multi-exposed (ME), O/P: Reconstructs directly HDR (D) or multi-exposed LDR stack (I), UP: Can be trained with unpaired data, HF: Uses heuristic-based guidance of artifact and exposure infor- mation, Con (Context): Uses local/global image information and relationship among entities in the image, Sem (Seman- tics): Uses color/texture information and identity of the items in the image, Art (Artifacts): Handles visual artifacts in heavily over/underexposed areas, TM: Supports tone-mapping i.e. HDR -> LDR.
 
 
 ## Experiments and Results
 ###  LDR → HDR:
-![My Image](assets/results.png)
+![My Image](assets/results.png) 
 HDR reconstruction (inverse tone-mapping) learned with
 our self-supervised learning approach. Quantitative comparison
 with supervised (gray) and unsupervised/weakly-supervised/self-
