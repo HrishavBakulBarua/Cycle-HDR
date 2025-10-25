@@ -62,9 +62,7 @@ image from the [DrTMO](https://github.com/shleecs/DrTMO_unofficial_pytorch/blob/
 ![My Image](assets/novel-loss.png)
 
 **Left**: Depiction of the contrastive loss *L<sub>con<sub>*. Positive
-($${\color{green}green}$$) and negative ($${\color{red}Red}$$) pairs in a batch. We use a histogram-
-equalized version of the LDR processed using the OpenCV func-
-tion equalizeHist. **Right**: Depiction of the semantic segmentation loss *L<sub>sem<sub>*.
+($${\color{green}green}$$) and negative ($${\color{red}Red}$$) pairs in a batch. We use a histogram-equalized version of the LDR processed using the OpenCV function equalizeHist. **Right**: Depiction of the semantic segmentation loss *L<sub>sem<sub>*.
 We use [Segment Anything (SAM)](https://arxiv.org/abs/2304.02643) to generate segmentation
 classes in the histogram-equalized LDR and reconstructed tone-mapped HDR images.
 
