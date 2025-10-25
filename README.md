@@ -98,7 +98,7 @@ supervised (black) learning methods trained on the paired datasets
 supervised (WS), and self-supervised (SS).
 
 ### HDR → LDR:
-![My Image](assets/results_tone-map.png)
+![My Image](assets/results_TM.png)
 LDR reconstruction (tone-mapping) learned with our self-
 supervised learning approach. Quantitative comparison with the
 state-of-the-art one-mapping operators.
