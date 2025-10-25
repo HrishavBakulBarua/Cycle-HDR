@@ -237,6 +237,15 @@ If you find our work (i.e., the code, the theory/concept, or the dataset) useful
 ~~~
 
 ~~~
+@article{barua2025physhdr,
+  title={PhysHDR: When Lighting Meets Materials and Scene Geometry in HDR Reconstruction},
+  author={Barua, Hrishav Bakul and Stefanov, Kalin and Krishnasamy, Ganesh and Wong, KokSheik and Dhall, Abhinav},
+  journal={arXiv preprint arXiv:2509.16869},
+  year={2025}
+}
+~~~
+
+~~~
 @InProceedings{Barua_2025_WACV,
     author    = {Barua, Hrishav Bakul and Stefanov, Kalin and Wong, KokSheik and Dhall, Abhinav and Krishnasamy, Ganesh},
     title     = {GTA-HDR: A Large-Scale Synthetic Dataset for HDR Image Reconstruction},
