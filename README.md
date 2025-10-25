@@ -42,7 +42,7 @@ Reconstruction of High Dynamic Range (HDR) from Low Dynamic Range (LDR) images i
 Left part ($${\color{blue}Blue}$$) is the encoder and
 right part ($${\color{red}Red}$$) is the decoder. The decoder is inside the feedback iteration loop.
 
-![My Image](assets/llm.png)
+![My Image](assets/heuristic.png)
 
 Overview of the proposed LLM module. Q&A sessions include: **User prompt**: “Tell me if there are any synthesis artifacts
 in the given scene or not. Must response with 1) Yes or No only, 2) If Yes, can you get me the saliency maps of the artifacts (in $${\color{red}Red}$$),
