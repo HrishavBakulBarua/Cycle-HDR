@@ -84,7 +84,7 @@ classes in the histogram-equalized LDR and reconstructed tone-mapped HDR images.
 | [DITMO](https://arxiv.org/abs/2405.15468)   | SE | I | :x: | :x: | :x: |  :white_check_mark: |  :white_check_mark: | :x: |
 | **CycleHDR (ours)** | SE  | D |  :white_check_mark:| :white_check_mark:| :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
-I/O: LDR used as input, single-exposed (SE) and multi-exposed (ME), O/P: Reconstructs directly HDR (D) or multi-exposed LDR stack (I), UP: Can be trained with unpaired data, HF: Uses heuristic-based guidance of artifact and exposure infor- mation, Con (Context): Uses local/global image information and relationship among entities in the image, Sem (Seman- tics): Uses color/texture information and identity of the items in the image, Art (Artifacts): Handles visual artifacts in heavily over/underexposed areas, TM: Supports tone-mapping i.e. HDR -> LDR.
+I/O: LDR used as input, single-exposed (SE) and multi-exposed (ME), O/P: Reconstructs directly HDR (D) or multi-exposed LDR stack (I), UP: Can be trained with unpaired data, HF: Uses heuristic-based guidance of artifact and exposure infor- mation, Con (Context): Uses local/global image information and relationship among entities in the image, Sem (Semantics): Uses color/texture information and identity of the items in the image, Art (Artifacts): Handles visual artifacts in heavily over/underexposed areas, TM: Supports tone-mapping i.e. HDR -> LDR.
 
 
 ## Experiments and Results
