@@ -30,7 +30,7 @@ This work is supported by the prestigious [`Global Excellence and Mobility Schol
 
 ## Overview
 
-The below image is a qualitative comparison of the proposed **LLM-HDR** method and state-of-the-art method [SelfHDR](https://github.com/cszhilu1998/SelfHDR) (`ICLR'24`). We see, our method handles the overexposed portions in the sky more realistically.
+The below image is a qualitative comparison of the proposed **CycleHDR** method and state-of-the-art method [SelfHDR](https://github.com/cszhilu1998/SelfHDR) (`ICLR'24`). We see, our method handles the overexposed portions in the sky more realistically.
 
 ![My Image](assets/visual_teaser.png)
 
