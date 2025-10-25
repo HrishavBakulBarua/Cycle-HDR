@@ -53,18 +53,7 @@ Overview of the proposed heuristic-based module. The module outputs the saliency
 
 ![My Image](assets/heuristic-loss.png)
 
-Depiction of the LLM-based loss Lllm. Q&A sessions
-include: **User prompt**: “Tell me if there are any synthesis artifacts
-in the given scene or not. Must response with 1) Yes or No only, 2)
-If Yes, return the [artifact areas number of pixels, total number of
-pixels]. Also highlight the artifact areas with $${\color{pink}Pink}$$. Similarly find
-if there are any over/under exposure areas in the scene and return
-the [pixels in overexposure, pixels in underexposure areas] and
-highlight the overexposed areas in $${\color{blue}Blue}$$ and underexposed areas in
-$${\color{green}Green}$$.”, **System**: “Outputs the number of pixels with the pixel list
-(in .txt files) for the detected artifacts in pink, overexposed pixels
-in blue, and underexposed pixels in green.”
-
+Depiction of the heuristic-based loss Lheu. The system outputs the the pixel for the detected artifacts, overexposed pixels, and underexposed pixels.
 ![My Image](assets/cyc-loss.png)
 
 Depiction of the cycle consistency loss *L<sub>cyc<sub>* using an
