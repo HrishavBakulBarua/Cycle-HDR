@@ -53,7 +53,7 @@ Overview of the proposed heuristic-based module. The module outputs the saliency
 
 ![My Image](assets/heuristic-loss.png)
 
-Depiction of the heuristic-based loss Lheu. The system outputs the the pixel for the detected artifacts, overexposed pixels, and underexposed pixels.
+Depiction of the heuristic-based loss *L<sub>heu<sub>*. The system outputs the the pixel for the detected artifacts, overexposed pixels, and underexposed pixels.
 ![My Image](assets/cyc-loss.png)
 
 Depiction of the cycle consistency loss *L<sub>cyc<sub>* using an
